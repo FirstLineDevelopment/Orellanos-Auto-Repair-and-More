@@ -6,8 +6,8 @@ export default {
     {
       path: "/",
       source: "index.html",
-      titlePattern: "Orellano's Auto Repair & More",
-      anchors: ["services", "why", "request", "contact"]
+      titlePattern: "Orellano Mobile Mechanic",
+      anchors: ["mobile", "services", "card", "request", "contact"]
     }
   ],
   assets: {
