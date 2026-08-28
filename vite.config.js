@@ -13,6 +13,7 @@ function pageInputs() {
 }
 
 export default defineConfig({
+  base: "./",
   build: {
     rollupOptions: {
       input: pageInputs()
