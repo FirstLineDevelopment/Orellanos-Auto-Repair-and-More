@@ -31,6 +31,7 @@
 - Email
 - Operating hours
 - Service area and mobile service limitations
+- Exact hours; current site hours are draft assumptions for review
 - Appointment/request process
 - Owner name
 - Staff names
@@ -46,8 +47,8 @@ The supplied Facebook page exposes an Open Graph image. The user also provided l
 ## Owner Questions
 
 1. Should the site publish only the phone number, or also a business address?
-2. What are the current hours?
+2. Are the draft hours correct: Monday-Friday 8 AM-6 PM, Saturday 9 AM-3 PM, Sunday closed?
 3. Are the listed services complete: brakes, engine, transmission, A/C, diagnostics, and general maintenance?
-4. What towns or radius does the mobile mechanic service cover?
+4. Is the draft coverage area correct: Waterbury, Naugatuck, Wolcott, Watertown, Middlebury, Prospect, Cheshire, and nearby towns?
 5. Do customers request appointments, call first, message on Facebook, or meet at a shop?
 6. Can FirstLine use photos from the Facebook page, and can the owner provide original logo/card files?

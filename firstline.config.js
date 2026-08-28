@@ -7,7 +7,7 @@ export default {
       path: "/",
       source: "index.html",
       titlePattern: "Orellano Mobile Mechanic",
-      anchors: ["mobile", "services", "card", "request", "contact"]
+      anchors: ["mobile", "services", "coverage", "request", "contact"]
     }
   ],
   assets: {

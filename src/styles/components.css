@@ -405,6 +405,69 @@ h3 {
   color: var(--fl-color-muted);
 }
 
+.coverage-section {
+  background: #fff;
+}
+
+.coverage-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(17rem, 0.8fr) minmax(17rem, 0.75fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.coverage-card {
+  padding: clamp(1rem, 2.5vw, 1.6rem);
+  border: 1px solid rgba(17, 35, 56, 0.14);
+  border-radius: var(--fl-radius);
+  background: #f7f9fc;
+  box-shadow: var(--fl-shadow);
+}
+
+.coverage-primary {
+  background:
+    linear-gradient(135deg, rgba(29, 104, 178, 0.12), rgba(201, 211, 223, 0.22)),
+    #fff;
+}
+
+.coverage-card p {
+  color: var(--fl-color-muted);
+}
+
+.hours-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.hours-list div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(17, 35, 56, 0.14);
+}
+
+.hours-list dt,
+.hours-list dd {
+  margin: 0;
+  font-weight: 950;
+}
+
+.hours-list dd {
+  text-align: right;
+  color: var(--fl-color-primary);
+}
+
+.plain-list {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--fl-color-muted);
+  font-weight: 800;
+}
+
 .request-dock {
   padding: clamp(3.5rem, 8vw, 7rem) 0;
   background:
@@ -598,6 +661,7 @@ h3 {
   .board-grid,
   .service-rail,
   .card-proof-grid,
+  .coverage-grid,
   .request-dock-grid,
   .final-grid {
     grid-template-columns: 1fr;
