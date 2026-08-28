@@ -1,7 +1,7 @@
 export function bindAnchorOffset({
   headerSelector = "[data-site-header]",
   linkSelector = 'a[href^="#"]',
-  extraOffset = -42
+  extraOffset = 0
 } = {}) {
   const links = Array.from(document.querySelectorAll(linkSelector));
 
@@ -16,7 +16,9 @@ export function bindAnchorOffset({
     const target = document.getElementById(id);
     if (!target) return false;
 
-    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight() - extraOffset;
+    const targetOffset = Number.parseFloat(target.dataset.anchorOffset ?? "");
+    const offset = Number.isFinite(targetOffset) ? targetOffset : extraOffset;
+    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight() - offset;
     window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
     return true;
   }

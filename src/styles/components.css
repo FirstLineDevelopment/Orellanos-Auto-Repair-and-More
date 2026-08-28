@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--fl-header-height) - 2.625rem);
+  scroll-padding-top: var(--fl-header-height);
 }
 
 body {
@@ -59,12 +59,12 @@ h3 {
 
 .fl-section {
   padding: var(--fl-section-y) 0;
-  scroll-margin-top: calc(var(--fl-header-height) - 2.625rem);
+  scroll-margin-top: var(--fl-header-height);
 }
 
 .service-board,
 .request-dock {
-  scroll-margin-top: calc(var(--fl-header-height) - 2.625rem);
+  scroll-margin-top: var(--fl-header-height);
 }
 
 .fl-header {
