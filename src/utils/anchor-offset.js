@@ -1,7 +1,7 @@
 export function bindAnchorOffset({
   headerSelector = "[data-site-header]",
   linkSelector = 'a[href^="#"]',
-  extraOffset = 8
+  extraOffset = -42
 } = {}) {
   const links = Array.from(document.querySelectorAll(linkSelector));
 
