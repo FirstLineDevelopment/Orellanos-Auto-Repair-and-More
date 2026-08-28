@@ -1,24 +1,24 @@
 :root {
-  --fl-color-bg: #ffffff;
-  --fl-color-surface: #f7f8fa;
-  --fl-color-text: #15171a;
-  --fl-color-muted: #5f6672;
-  --fl-color-primary: #1f5eff;
-  --fl-color-accent: #ffb703;
-  --fl-color-ink: #101318;
-  --fl-color-border: #dde2ea;
-  --fl-color-focus: rgba(31, 94, 255, 0.22);
+  --fl-color-bg: #f5f2ec;
+  --fl-color-surface: #fffaf2;
+  --fl-color-text: #171717;
+  --fl-color-muted: #655f55;
+  --fl-color-primary: #b5251f;
+  --fl-color-accent: #f2b84b;
+  --fl-color-ink: #151515;
+  --fl-color-border: #ded5c8;
+  --fl-color-focus: rgba(181, 37, 31, 0.24);
   --fl-radius: 8px;
-  --fl-radius-soft: 18px;
-  --fl-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
-  --fl-shadow-strong: 0 24px 60px rgba(15, 23, 42, 0.18);
-  --fl-container: min(1120px, calc(100% - 2rem));
-  --fl-header-height: 64px;
-  --fl-section-y: 3rem;
-  --fl-section-y-large: 5rem;
-  --fl-card-pad: 1rem;
+  --fl-radius-soft: 14px;
+  --fl-shadow: 0 14px 34px rgba(25, 21, 16, 0.1);
+  --fl-shadow-strong: 0 30px 70px rgba(0, 0, 0, 0.28);
+  --fl-container: min(1180px, calc(100% - 2rem));
+  --fl-header-height: 68px;
+  --fl-section-y: 4.5rem;
+  --fl-section-y-large: 6rem;
+  --fl-card-pad: 1.2rem;
   --fl-stack-gap: 1rem;
-  --fl-cluster-gap: 1.5rem;
+  --fl-cluster-gap: 2rem;
   --fl-form-gap: 0.75rem;
 }
 
