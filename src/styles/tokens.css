@@ -1,0 +1,36 @@
+:root {
+  --fl-color-bg: #ffffff;
+  --fl-color-surface: #f7f8fa;
+  --fl-color-text: #15171a;
+  --fl-color-muted: #5f6672;
+  --fl-color-primary: #1f5eff;
+  --fl-color-accent: #ffb703;
+  --fl-color-ink: #101318;
+  --fl-color-border: #dde2ea;
+  --fl-color-focus: rgba(31, 94, 255, 0.22);
+  --fl-radius: 8px;
+  --fl-radius-soft: 18px;
+  --fl-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+  --fl-shadow-strong: 0 24px 60px rgba(15, 23, 42, 0.18);
+  --fl-container: min(1120px, calc(100% - 2rem));
+  --fl-header-height: 64px;
+  --fl-section-y: 3rem;
+  --fl-section-y-large: 5rem;
+  --fl-card-pad: 1rem;
+  --fl-stack-gap: 1rem;
+  --fl-cluster-gap: 1.5rem;
+  --fl-form-gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fl-container: min(100%, calc(100% - 1rem));
+    --fl-header-height: 58px;
+    --fl-section-y: 1.5rem;
+    --fl-section-y-large: 2.5rem;
+    --fl-card-pad: 0.85rem;
+    --fl-stack-gap: 0.75rem;
+    --fl-cluster-gap: 1rem;
+    --fl-form-gap: 0.5rem;
+  }
+}
