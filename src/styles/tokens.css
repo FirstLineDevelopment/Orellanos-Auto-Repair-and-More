@@ -1,13 +1,13 @@
 :root {
-  --fl-color-bg: #f4f8fd;
+  --fl-color-bg: #f3f4f6;
   --fl-color-surface: #ffffff;
-  --fl-color-text: #09131f;
-  --fl-color-muted: #4f6173;
-  --fl-color-primary: #1d68b2;
-  --fl-color-accent: #c9d3df;
-  --fl-color-ink: #05090f;
-  --fl-color-border: #c9d6e5;
-  --fl-color-focus: rgba(29, 104, 178, 0.24);
+  --fl-color-text: #0f172a;
+  --fl-color-muted: #64748b;
+  --fl-color-primary: #2167ae;
+  --fl-color-accent: #94a3b8;
+  --fl-color-ink: #020617;
+  --fl-color-border: #e2e8f0;
+  --fl-color-focus: rgba(33, 103, 174, 0.24);
   --fl-radius: 8px;
   --fl-radius-soft: 12px;
   --fl-shadow: 0 14px 34px rgba(4, 24, 44, 0.12);
